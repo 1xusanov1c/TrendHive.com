@@ -30,7 +30,7 @@ let shopping = [
     {
         id: 5,
         name_add: "Kabelsiz sichqoncha, qulay, chiroyli, tezkor",
-        Image: "https://images.uzum.uz/coh79hmqva2fgre7g8ng/t_product_540_high.jpg",
+        Image: "https://joybox.uz/wp-content/uploads/2023/03/d0096ec6c83575373e3a21d129ff8fef_031423142741.jpeg",
         price: 50,
         quantity: 30,
     },
@@ -51,21 +51,21 @@ let shopping = [
     {
         id: 8,
         name_add: "Gaz plitasi Ferre , 3 ta gaz av 1 ta elektr konforka",
-        Image: "https://images.uzum.uz/cs1o0gssslojjk5rksdg/original.jpg",
+        Image: "https://ferre.uz/wp-content/uploads/2022/06/BT60-21Br.jpg",
         price: 350,
         quantity: 45,
     },
     {
         id: 9,
         name_add: "Televizor MoonX Smart TV, 55 4K UltraHD, 43 Full HD, Google TV, Wi-Fi, ovozli boshqaruv",
-        Image: "https://images.uzum.uz/cprt38b6eisq2rkd8ckg/original.jpg",
+        Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUY9YrTARICAS3sho5-q6_pS7-H9rxvVFyog&s",
         price: 250,
         quantity: 15
     },
     {
         id: 10,
         name_add: "Konvektorli isitgich QLT QC-1500",
-        Image: "https://images.uzum.uz/csv0cpbvgbkpg1nndnm0/original.jpg",
+        Image: "https://cdn.asaxiy.uz/asaxiy-content/product/items/desktop/5717300d2a61f93c6c824e8abcd1ab122024092111211323220DhBOKnQTFH.png",
         price: 95,
         quantity: 50,
     },
