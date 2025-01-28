@@ -1,0 +1,122 @@
+let shopping = [
+    {
+        id: 1,
+        name_add: "Iphone 15 Pro Max",
+        Image: "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/wm/2023/10/iphone-15-pro-max-1.JPG" ,
+        price: 1000,
+        quantity: 10,
+    },
+    {
+        id: 2,
+        name_add: "Iphone 15 Pro",
+        Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNeLSr3EiVcpQFxc329wRlaNiylx78GdxEzg&s",
+        price: 950,
+        quantity:10,
+    },
+    {
+        id:3,
+        name_add: "Noutbook HP Envy ",
+        Image: "https://images.uzum.uz/ct3ck1k5j42b32f3p6p0/original.jpg",
+        price: 900,
+        quantity: 5,
+    },
+    {
+        id: 4,
+        name_add: "Noutbook Acer ",
+        Image: "https://images.uzum.uz/ctntie45j42bjc45lvv0/original.jpg",
+        price: 500,
+        quantity: 7 ,
+    },
+    {
+        id: 5,
+        name_add: "Kabelsiz sichqoncha, qulay, chiroyli, tezkor",
+        Image: "https://images.uzum.uz/crpps6mvip07shn62m20/original.jpg",
+        price: 50,
+        quantity: 30,
+    },
+    {
+        id:6,
+        name_add: "Kir yuvish mashinasi QLT, invertor, 6-8 kg",
+        Image: "https://images.uzum.uz/ctrt7tlht56ksubbevlg/original.jpg",
+        price: 300,
+        quantity:15,
+    },
+    {
+        id: 7,
+        name_add: "Gaz plita Ideal L305, 3+1 konforkali, pech hajmi 65 litr, 60 * 60",
+        Image:"https://images.uzum.uz/cu0elkk5j42bjc47h53g/original.jpg",
+        price: 300,
+        quantity: 30,
+    },
+    {
+        id: 8,
+        name_add: "Gaz plitasi Ferre , 3 ta gaz av 1 ta elektr konforka",
+        Image: "https://images.uzum.uz/cs4cj1ffrr8f0ihuev2g/original.jpg",
+        price: 350,
+        quantity: 45,
+    },
+    {
+        id: 9,
+        name_add: "'Televizor MoonX Smart TV, 55' 4K UltraHD, 43' Full HD, Google TV, Wi-Fi, ovozli boshqaruv",
+        Image: "https://images.uzum.uz/cpptm3r6eisq2rkcr8j0/original.jpg",
+        price: 250,
+        quantity: 15
+    },
+    {
+        id: 10,
+        name_add: "Konvektorli isitgich QLT QC-1500",
+        Image: "https://images.uzum.uz/ctdvkhs5j428jv1fovf0/original.jpg",
+        price: 95,
+        quantity: 50,
+    },
+    {
+        id: 11,
+        name_add: "Moyli isitgich QLT QC-2500",
+        Image: "https://images.uzum.uz/ct6nbqc5j42b32f4qo7g/original.jpg",
+        price: 100,
+        quantity: 30
+    },
+    {
+        id: 12, 
+        name_add: "Devorga o'rnatiladigan isitgich Vitek None",
+        Image: "https://images.uzum.uz/ctpc1545j42bjc45v5rg/original.jpg",
+        price: 90,
+        quantity: 30,
+    },
+    {
+        id:13,
+        name_add: "Kuzatuv kamerasi 6 oy kafolati bilan, uy va ko'cha uchun aqlli IP WIFI 360",
+        Image: "https://images.uzum.uz/ct6ukd7iub3d1eok1dvg/original.jpg",
+        price: 32,
+        quantity: 50
+    },
+    {
+        id: 14, 
+        name_add: "Mikrofonli to'liq o'lchamli simsiz quloqchinlar, joystik boshqaruvli",
+        Image: "https://images.uzum.uz/cu7an2tht56ksubeit2g/original.jpg",
+        price: 15,
+        quantity: 20,
+    },
+    {
+        id: 15,
+        name_add: "Simsiz M19 quloqchinlari, simsiz Bluetooth naushniklar",
+        Image: "https://images.uzum.uz/cu4352dht56ksubdmgbg/original.jpg",
+        price: 5,
+        quantity: 30,
+    },
+    {
+        id: 16,
+        name_add: "Kuch mashq trenajori PowerGym H83 ",
+        Image: "https://cdn.mediapark.uz/imgs/38e0d986-f85d-4ee7-9333-5c08b3f6fd07.webp",
+        price: 10000,
+        quantity: 5,
+    },
+    {
+        id: 17,
+        name_add: "Velotrenajor PowerGym B55 - Toshkentda",
+        Image: "https://cdn.mediapark.uz/imgs/33856b6e-db7d-4f5d-8333-151a9674f6ae.webp",
+        price: 4000,
+        quantity: 10,
+    },
+    
+]

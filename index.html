@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TrendHive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <nav class="bg-white shadow-md fixed top-0 left-0 w-full bg-gray-800 text-white bg-opacity-50 bg-white backdrop-blur-md">
+        <div class="container mx-auto px-2 py-2 flex justify-between items-center">
+            <img class="h-20" src="./images/logo.png"></img>
+            <div class="space-x-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600" onclick="addHome()">Bosh sahifa</a>
+                <a href="#" onclick="appBtn()" class="text-gray-600 hover:text-blue-600">Tavar qo'shish</a>
+                <a href="#footer" class="text-gray-600 hover:text-blue-600" ">Aloqa</a>
+                <button onclick="showApp('show')"  class="text-gray-600 hover:text-blue-600"><i class="fa-solid fa-cart-shopping" ></i> <span id="count">0</span></button>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    
+
+    <div class="border w-[450px] h-[100vh] overflow-y-scroll fixed top-0 right-[0px] bg-white duration-300 translate-x-[450px] py-10 px-5 bg-opacity-50 backdrop-blur-sm" id="shop">
+        <div class="flex justify-between">
+            <p class="text-3xl text-black font-bold">Xaridingiz!</p>
+            <button onclick="showApp('hide')"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="cards">
+        </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    <header class="bg-blue-500 text-white py-20 mt-[100px]" id="product">
+        <div class="container mx-auto px-4 text-center" >
+            <h2 class="text-4xl font-bold mb-4">Bizning onlayn do'konimizga xush kelibsiz!</h2>
+            <p >Eng soʻnggi mahsulotlarni xarid qiling va eksklyuziv chegirmalardan bahramand boʻling!</p>
+            
+        </div>
+    </header>
+    
+    <div class="container mx-auto px-4 mb-5 w-[400px] bg-cyan-200  rounded-[40px] mt-[100px]" >
+        <div class=" flex flex-col text-center gap-[10px] py-2 px-3 items-center hidden" id="addbut">
+            <p class="text-gray-500 text-[25px] mb-5">Mahsulotingizni qo'shing</p>
+            <input class="py-2 px-3 rounded-lg" type="text" placeholder="Mahsulotni nomni" id="name_add">
+            <input class="py-2 px-3 rounded-lg" type="text" placeholder="Mahsulot rasmni URL ni kirting" id="image">
+            <input class="py-2 px-3 rounded-lg" type="number" placeholder="Narxi" id="price">
+            <input class="py-2 px-3 rounded-lg" type="number" placeholder="Soni" id="quantity">
+            <button class="py-1 px-2 bg-blue-600 w-[100px] text-center rounded-lg mt-5 mb-5 active:bg-blue-300" onclick="addBtn()">Qo'shish</button>
+        </div>
+    </div>
+    
+    <section class="container mx-auto px-4 py-5  " >
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="hero">
+
+        </div>
+    </section>
+
+
+    <footer id="footer" class="bg-gray-600 h-[50vh]">
+        <div class=" container mx-auto px-4 flex justify-between">
+            <div class="mt-5" >
+                <p class="text-white text-[45px] mb-[5px] "><i class="fa-regular fa-lightbulb"></i>TrendHive</p>
+                <p class="text-2xl text-white mb-[5px]">Savollaringiz boʻlsa, javob berishga tayyormiz!</p>
+                <p class="text-3xl text-white mb-[15px]">+998 88 021 05 06</p>
+                <p class="text-lg text-white  mb-[5px]">Ish vaqti:</p>
+                <p class="text-2xl text-white ">Har kuni: <b>9:00-21:00</b></p>
+            </div>
+            <div class="mt-5">
+                <h3 class="text-2xl text-white">Ma'lumot</h3>
+                <ul class="">
+                    <li class="hover:text-slate-400">Biz haqimizda</li>
+                    <li class="hover:text-slate-400">Kafolat</li>
+                    <li class="hover:text-slate-400">Aksiya</li>
+                </ul>
+            </div>
+            <div class="mt-5">
+                <h3 class="text-2xl text-white">Xizmatlat</h3>
+                <ul class="">
+                    <li class="hover:text-slate-400">To'lov usullari</li>
+                    <li class="hover:text-slate-400">Hamkorlik</li>
+                    <li class="hover:text-slate-400">Ommaviy to'lovlarda</li>
+                </ul>
+            </div>
+            <div class="mt-5">
+                <h3 class="text-2xl text-white">Ijtmoviy tarmoqlar</h3>
+                <ul class="flex justify-around mt-5">
+                    <li class="text-3xl text-white hover:text-slate-400"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="text-3xl text-white hover:text-slate-400"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="text-3xl text-white hover:text-slate-400"><i class="fa-brands fa-telegram"></i></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    
+    
+    
+    <script src="./js/shopping.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
